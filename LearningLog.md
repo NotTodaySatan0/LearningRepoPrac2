@@ -96,7 +96,11 @@ once you have sat with a issue for a while you get a greater insight to it. For 
 
 ### Motivation for our Hack:
 
+Information technology is just that **Information**. Learning how to store, organize, ignore and utilize information is a must for all developers. It is also something I wish was focused on more. I particularly wanted to look into databases one of the most efficient way to store and organize data.
+
 ### Background knowledge: 
+SQL is the most important thing to know when dealing with databases
+### ScheduleYouLater:
 
 ### ScheduleYouLater: 
 <hr>
