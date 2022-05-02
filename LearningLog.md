@@ -98,7 +98,8 @@ Once you have sat with a issue for a time you gain greater insight into it. For 
 
 The good news is that this issue can be fixed. Though this is not something that you will ever truly be done with as your code quality will continue to improve always. There is a large initial boosts that can be gained following these basic principles. You will thank yourself for learning the skill of developing with good code quality.
 
-# Part 2: *[ScheduleYouLater](https://github.com/Fa41m/ScheduleYouLater)*
+# Part 2: Data Storage
+### *Project: [ScheduleYouLater](https://github.com/Fa41m/ScheduleYouLater)*
 
 ### <span style="color:Red"> Motivation for our Hack: </span>
 Information technology is just that **Information**. Learning how to store, organize display information is a must for all developers. It is also something I wish was focused on more. I particularly wanted to look into databases one of the most efficient way to store and organize large quantities of data. 
