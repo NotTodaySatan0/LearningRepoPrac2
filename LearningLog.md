@@ -1,39 +1,41 @@
 # Learning Log DLXV82
-(p.s. looks better in dark mode)
+(p.s. looks better in dark mode, always does)
 # Part 1 *DurHack 2022*
 
 ### *Project: [Spoil Wordle](https://github.com/sbarnham/spoilWordle)*
 
-When starting this project I felt lost. This is a problem I'm sure many have faced. It was only after DurHack that I knew what I wanted to achieve. 
+When starting this practical I felt lost, I'm sure a problem many faced. It was only after DurHack that I knew what I wanted to achieve. 
 
-I am breaking this project into parts in attempt to emphasize the importance I feel a hackathon has in gaining the experience of what actual developing environments are. Having interned at a start up I saw the ordered chaos that developing can be and being at a hackathon made me feel as if I was starting my own. 
+I am breaking this project into parts in attempt to emphasize the importance hackathons have in gaining the experience of actual developing environments. Having interned at a start up I saw the ordered chaos that developing can be and being at a hackathon made me feel as if I was starting my own. 
 
 >In my opinion a hackathon should be a mandatory aspect of this project and where better to start then DurHack. 
 
 ### <span style="color:red"> *My Guide to Hackathons ([DurHack](https://durhack.com/)):*</span>
 
-1. Read Challenges Before Hand
+1. Read [Challenges]((https://hack.mlh.io/prizes)) Before Hand
 
-    If you have never been to a hackathon before there is a list of challenges that will be released before every hackathon. This is something I highly recommend you read before competing eg.
+    For first time hackers, there is a list of challenges that will be released before every hackathon. This is a must read before competing.
 ![DurHackTeam](public/PrizeList.PNG)
 
 1. Build Your Team Beforehand 
     * Saves Time
-    * You can build it better with diversity of skill in mind. Something you will be more limited in, building your team at an event.
-    * You will spend lots of time together make sure you work well from the get go.
+    * Allows you to build with diversity of skill in mind. Something you will be limited doing, building your team at events.
+> You will spend a lot of time together. Get people work well and get along with.
 1. Rely on Sponsor Representatives
-    * use Hackathons/Sponsors resources and engage with the Representatives. They are there to help! I found the lectures given the most informative and helpful.
+    * use Hackathons/Sponsors resources and engage with the Representatives. They are there to help! I found the lectures the most informative and helpful.
 1. The Demo
-    * Let the best speaker present.
-        * Explain why you made the project and the value it adds 
+    * Let the best speaker present don't default to the group leader.
+        * Explain why you made the project, the value it adds. 
+        * Practice demoing to your group and choose the teammate that demos the best.
 
 ### <span style="color:Red"> *Hackathon Tips (DurHack):*</span>
 * Rest before, these are long events don't burnout.
 * Go in open minded, **your plans will change**.
 * Choose a personal objective. 
     
-    It's okay if it changes. I found this very useful especially when trying to learn something when there are so many options.
-* Make a list of what your project must do and focus on core functionality before adding extra
+>It's okay if it changes. I found this very useful especially when trying to learn something when there are so many options.
+
+* Make a list of what your project must do and focus on core functionality before adding extra.
 
 ### <span style="color:Red"> Motivation for our Hack:</span>
 
@@ -43,7 +45,7 @@ All businesses require [communication channels email, text messages, phone calls
 
 ### <span style="color:Red"> Background knowledge: </span> 
 
-Before starting with API's such as [Twilio](https://www.twilio.com/) or [alternatives](https://rigorousthemes.com/blog/best-twilio-alternatives/) You should attempt to work with more basic API's. I recommend [Gmail](https://developers.google.com/gmail/api/) as a good starting place before you attempt to jump into more complex combinations of communications. This is where I started and it is a route I recommend. Start by sending basic emails and categorizing emails received by their content/subject. [Tutorial using nodemailer](https://www.youtube.com/watch?v=vgk7Yio-GQw). 
+Before starting with API's such as [Twilio](https://www.twilio.com/) or [alternatives](https://rigorousthemes.com/blog/best-twilio-alternatives/). You should attempt to work with more basic API's. I recommend [Gmail](https://developers.google.com/gmail/api/) as a good starting place before you attempt to jump into more complex combinations of communications. This is where I started and it is a route I recommend. Start by sending basic emails and categorizing emails received by their content/subject. [Tutorial using nodemailer](https://www.youtube.com/watch?v=vgk7Yio-GQw) or [JavaScript Quickstart](https://developers.google.com/gmail/api/quickstart/js#python-3.x). 
 
 <hr>
 
@@ -65,7 +67,7 @@ Top 3 & Funniest Hack   | Spoil Wordle Team
 
 One of the big issues I faced in the first practical of programming black was [code quality](https://www.perforce.com/blog/sca/what-code-quality-overview-how-improve-code-quality). I did not realize how important this issue was until DurHack.
 
-Often I would reach a point where I had a piece of code achieving what wanted, but when others have had to read and interpret how that code works they would get lost. Much of my code could have be called ***spaghetti code***, this was because of my approach . I would think about how I could solve the problem at hand often not putting enough thought into issues such as.
+Often I would reach a point where a piece of code achieving what I wanted, but when others had to work with that code they would get lost. Much of my code could have be called ***spaghetti code***, due to this approach. I would think about how to solve the problem and often not putting enough thought into [issues like](https://www.youtube.com/watch?v=k238XpMMn38).
 
 1. Later development
     * Changing functionality
@@ -86,15 +88,24 @@ Often I would reach a point where I had a piece of code achieving what wanted, b
 
 Once you have sat with a issue for a time you gain greater insight into it. For others developing with you fully understanding of every single line is arduous and wastes time. Especially in situation where time is a main factor such as hackathons.
 
+<hr>
+
 ## <span style="color:red"> Fixing the Issue: </span>
 
-* as much of a cop out answer as it sounds being hard on yourself.
+* The most effective strategy is to be hard on yourself. Step back and try and read your code as if you've just seen it for the first time.
 
-* **USE COMMENTS IN YOUR CODE**
+* [**Use informative comments in your code,**](https://stackoverflow.blog/2021/12/23/best-practices-for-writing-code-comments/) make sure the comments describe not only the line but sometimes also surrounding lines.
 
-* If there is a operation which is being used repeatedly throughout the code make a function for it. I have found this helps in 2 ways.
+* If there is a operation which is being used repeatedly throughout the code make a function for it. This helps in 2 ways.
     1. Decreases the total lines of code making it quicker to read and understand.
-    1. Helps identify where issues in the code lie. 
+    1. Helps identify where issues in the code lie.
+
+<hr> 
+
+## <span style="color:red"> Still need help?: </span>
+
+* [How To Write Better Code](https://www.youtube.com/watch?v=g2nMKzhkvxw)
+* [Spaghetti Code](https://www.geeksforgeeks.org/spaghetti-code/)
 
 The good news is that this issue can be fixed. Though this is not something that you will ever truly be done with as your code quality will continue to improve always. There is a large initial boosts that can be gained following these basic principles. You will thank yourself for learning the skill of developing with good code quality.
 
@@ -106,7 +117,7 @@ Information technology is just that **Information**. Learning how to store, orga
 
 And how better to develop these skills than with a calendar project where information must be sorted, added/edited and displayed efficiently and in a very specific format (according to the date the entry is in reference to)
 
-<br>
+<hr>
 
 ### <span style="color:Red"> Background knowledge: </span>
 
@@ -134,6 +145,9 @@ The final draft of this project ended up using JSON files instead of databases a
 
 Cookies are something else that must be considered when web developing. General client side storage used to be done using cookies. This is no longer done as it is inefficient. Cookies can be very useful when web developing.
 
-### introductions to Cookies:
+### Introductions to Cookies:
 
 * [Using HTTP cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
+
+# <span style="color:Red"> Conclusion </span>
+There are multiple small projects I undertook during this project eg. a bot auto signing up to college formals. This more broad approach meant I had two skills I was developing, as someone not having done A levels this was the route I decided to take. Focusing data storage and communications led me to gain more than If I had only focused one.
